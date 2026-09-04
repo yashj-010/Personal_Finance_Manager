@@ -3,9 +3,12 @@
 
 # Whitelist root files
 !.gitignore
+!.dockerignore
 !pom.xml
 !README.md
 !finance_manager_tests.sh
+!Dockerfile
+!docker-compose.yml
 
 # Whitelist src folder itself so git can look inside
 !src/
