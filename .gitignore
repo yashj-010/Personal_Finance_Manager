@@ -1,0 +1,22 @@
+# Ignore everything by default
+*
+
+# Whitelist root files
+!.gitignore
+!pom.xml
+!README.md
+!finance_manager_tests.sh
+
+# Whitelist src folder itself so git can look inside
+!src/
+
+# Ignore everything inside src by default
+src/*
+
+# Whitelist src/main folder and everything inside it
+!src/main/
+!src/main/**
+
+# specifically ignore target dirs
+target/
+**/target/
