@@ -6,9 +6,15 @@
 !.dockerignore
 !pom.xml
 !README.md
-!finance_manager_tests.sh
+!financial_manager_tests.sh
 !Dockerfile
 !docker-compose.yml
+!assets/
+assets/*
+!assets/*.png
+!assets/*.jpg
+!assets/*.gif
+!assets/*.webp
 
 # Whitelist src folder itself so git can look inside
 !src/
